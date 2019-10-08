@@ -28,7 +28,7 @@ if not PYTHON_VERSION == 3:
     raise ValueError("nuScenes dev-kit only supports Python version 3.")
 
 
-class NuScenes:
+class CustomNuScenes:
     """
     Database class for nuScenes to help query and retrieve information from the database.
     """
