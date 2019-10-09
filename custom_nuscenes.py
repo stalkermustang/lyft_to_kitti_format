@@ -418,7 +418,7 @@ class NuScenesExplorer:
     """ Helper class to list and visualize NuScenes data. These are meant to serve as tutorials and templates for
     working with the data. """
 
-    def __init__(self, nusc: NuScenes):
+    def __init__(self, nusc: CustomNuScenes):
         self.nusc = nusc
 
     @staticmethod
